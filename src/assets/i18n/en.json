@@ -1,0 +1,211 @@
+{
+
+    "Header.Item1" : "About me",
+    "Header.Item2" : "Experience",
+    "Header.Item3" : "Projects",
+    "Header.Item4" : "Contact",
+    "Header.cvBtn" : "Resume",
+    "Header.cvName": "Mohamed_Khammeri_Resume.pdf",
+
+    "Banner.Pretitle": "Hello! My name is",
+    "Banner.Description": "In a few words, I am a software engineer with expertise in <span class='underline'> backend development</span>, primarily using <span class='underline'>Java </span>, Python and Scala. I possess a strong background in <span class='underline'>capital markets </span> and investment banking, contributing to my well-rounded skillset. My <span class='underline'>communication</span> abilities complement my technical prowess, making me a valuable asset in the software development and financial sectors.",
+    "Banner.ActionBtn": "Get in touch",
+
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        " Throughout my humble experience, I've developed exceptional interpersonal abilities and proficient technical expertise that allow me to engage effectively with diverse clientele. I'm enthusiastic about facing challenges as they provide opportunities for growth and enhancement in order to deliver outstanding results.",
+        "Additionally, I possess the ability to enhance systems, optimize websites, establish standardized patterns, and propose and implement valuable ideas to enhance the project I am involved in.",
+        "Some of the technologies that I have trained and worked on include (but are not limited to):"
+    ],
+
+
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [{
+        "Tab": "Wimbee & Santander Bank",
+        "Company": "Wimbee Santander Bank",
+
+            "Title": "Backend Developer",
+            "Date": "April 2023 - August 2023",
+            "Description": [
+              "Integration of APIs provided by a stock exchange that offers real-time market data such as stock prices, trading volumes, and buy and sell orders.",
+              "Development of user-friendly interfaces using JavaFX to enable traders to interact with financial systems and data.",
+              "Implementation of business logic and management rules to ensure precise payment operations in compliance with regulations.",
+                "Design and development of an asynchronous transaction confirmation service using Java and Spring. This service enabled real-time processing of a high volume of transactions without affecting the overall system performance, thus providing an enhanced user experience.",
+                "Collaboration with DevOps teams to deploy, manage, and monitor backend services in production environments, utilizing Docker and CI/CD pipelines.",
+                "Ability to understand client needs, identify issues, and propose tailored solutions to enhance processes and systems."
+            ]
+        },
+        {
+            "Tab": "Ikigai Company",
+            "Company": "ikigai",
+            "Title": "End-of-studies Internship",
+            "Date": "January 2022 - December 2022 ",
+            "Description": [
+              "Design and development of an interactive and dynamic real estate website using Angular for the frontend, and Laravel for the backend, ensuring high traffic, exclusive services, and an optimal user experience.",
+              "Creation of RESTful services to feed real-time data into the user interface based on dynamic user input, with comprehensive testing of these APIs using POSTMAN.",
+              "Optimization of SQL queries and database access in MySQL to ensure high performance of the website.",
+                "Integration of advanced security mechanisms to safeguard sensitive user data.",
+                "Close collaboration with the team to adhere to the Agile Scrum methodology, ensuring timely delivery of features and effective response to required changes.",
+                "Thorough documentation writing to explain and detail various parts of the code, promoting better understanding and smooth future development."
+            ]
+        },
+        {
+            "Tab": "TRENDS",
+            "Company": "Trends-Company",
+            "Title": "Internship",
+            "Date": "May 2021 - August 2021",
+            "Description": [
+              "Design and development of web applications.",
+              "Database: Modeling and implementation of the ORM layer.",
+              "Web Services development.",
+              "Software Technical Writing."
+            ]
+        },
+        {
+            "Tab": "Ooredoo Group",
+            "Company": "ooredoo",
+            "Title": "Internship",
+            "Date": "July 2020 - September 2020",
+            "Description": [
+              "Participated in the new Fixed Wireless Broadband Access (FWBA) Project.",
+              "Worked with Level 2 IT Support to customize settings for personal preference, protecting data, expanding and troubleshooting."
+            ]
+        }
+
+    ],
+
+    "FeatureProjects.Title": "My projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [
+        {
+            "Title": "Banco Santander & Wimbee training projects ",
+            "Description": "Throughout my training and experiences, my focus has been on finance, encompassing a variety of courses and tasks. At Banco Santander, I engaged in a spectrum of courses that significantly enriched my skill set. Starting with Bash scripting, I mastered task automation, boosting efficiency in command-line operations. The Git CLI course laid a crucial foundation in version control. Understanding data organization and querying, learned through the Oracle databases course, proved vital for backend development. Python training equipped me with versatile programming skills, while JavaFX honed my ability to craft engaging desktop applications. Progressing through Spring, Flask, and Scala training, I deepened my understanding of constructing robust applications using diverse frameworks. Lastly, hands-on experience in the Spark project, utilizing Scala, heightened my ability to process and analyze large-scale financial data, providing invaluable insights into capital markets and finance. These courses and tasks collectively emphasized my dedication to excelling in the realm of finance and technology.",
+            "imgs": [
+                "assets/images/training/training1.png",
+                "assets/images/training/training2.png",
+                "assets/images/training/training3.png"
+            ],
+            "Technologies": ["Linux","Git CLI","Oracle Database", "Python", "Java", "Flask", "Scala", "Docker","Spring Framework", "Jetbrains","VScode"]
+
+        },
+
+        {
+            "Title": "Portfolio v2.0",
+            "Description": "An enhanced version 2.0 of my portfolio. A meticulously designed static website developed using Angular. This iteration focused on refining the user experience and adding new features to provide a more immersive and informative journey for visitors.",
+            "imgs": [
+                "assets/images/portfolio-v2.0/portfolio-1.png",
+                "assets/images/portfolio-v2.0/portfolio-2.png",
+                "assets/images/portfolio-v2.0/portfolio-3.png",
+                "assets/images/portfolio-v2.0/portfolio-4.png",
+                "assets/images/portfolio-v2.0/portfolio-5.png",
+                "assets/images/portfolio-v2.0/portfolio-6.png"
+            ],
+            "Technologies": ["Angular", "SASS", "Firebase", "JQuery"],
+            "ghLink": "https://github.com/mohamedkhammeri/portfolio-v2.0",
+            "demoLink": "https://www.moekhammeri.com"
+        },
+
+        {
+            "Title": "Portfolio v1.0",
+            "Description": "This portfolio is a labor of love, born from my desire to showcase my work in a visually appealing and functional manner. It features <span class='underline'>various components</span> that highlight my experience, projects, and areas of expertise.",
+            "imgs": [
+                "assets/images/portfolio/portfolio1.png",
+                "assets/images/portfolio/portfolio2.png",
+                "assets/images/portfolio/portfolio3.png",
+                "assets/images/portfolio/portfolio4.png",
+                "assets/images/portfolio/portfolio5.png"
+            ],
+            "Technologies": ["Angular", "SASS", "Firebase", "JQuery"],
+            "ghLink": "https://gitlab.com/mohamedkhammeri/portfolio",
+            "demoLink": "https://old.moekhammeri.com"
+    },
+
+        {
+            "Title": "My New Place",
+            "Description": "A comprehensive real estate platform that <span class='underline'>revolutionized</span> the way people find, rent, or buy homes. This platform focused on providing users with accurate property <span class='underline'>availability</span> and in-depth property information while incorporating modern conveniences like <span class='underline'>digital contract signing</span> and <span class='underline'>secure online payments</span>.",
+            "imgs": [
+                "assets/images/mnp/mnp1.png",
+                "assets/images/mnp/mnp4.png",
+                "assets/images/mnp/mnp8.png",
+                "assets/images/mnp/mnp7.png",
+                "assets/images/mnp/mnp3.png",
+                "assets/images/mnp/mnp2.png",
+                "assets/images/mnp/mnp5.png",
+                "assets/images/mnp/mnp6.png"
+            ],
+            "Technologies": ["Laravel", "Angular", "Postgres","Stripe","SSL/TLS","Tokenization"],
+            "ghLink": "https://gitlab.com/mohamedkhammeri/mnp"
+        },
+        {
+            "Title": "Unitech Desktop",
+            "Description": "Introducing the Desktop version of a Virtual University Platform, a thoughtfully constructed <span class='underline'>n-tier Java application</span>. The desktop interface harmoniously connects to a <span class='underline'>web</span> application built on the <span class='underline'>Symfony framework</span> and a <span class='underline'>mobile</span> app crafted with <span class='underline'>Codename One</span>. These components work in unison with a <span class='underline'>centralized remote database</span>, striving to enhance the educational experience for students and facilitate operational efficiency for university staff, all while maintaining a humble approach to its capabilities and offerings.",
+            "imgs": [
+                "assets/images/unitech_desk/unitech1.png",
+                "assets/images/unitech_desk/unitech2.png",
+                "assets/images/unitech_desk/unitech3.png",
+                "assets/images/unitech_desk/unitech4.png",
+                "assets/images/unitech_desk/unitech5.png"
+            ],
+            "ghLink": "https://gitlab.com/mohamedkhammeri/gestionecole",
+            "Technologies": ["Java FX, Codename ONE, MySQL, GitLab"]
+        },
+        {
+            "Title": "Unitech Web",
+            "Description": "Aligned with its desktop counterpart, the Java-based Virtual University Platform extends to the web through a <span class='underline'>Symfony 3.4</span>  PHP Framework. This web version utilizes <span class='underline'>RESTful</span> APIs, ensuring optimal interaction with a <span class='underline'>remote database</span>. This integration streamlines <span class='underline'>data flow</span> and actions, guaranteeing a seamless experience for users. By leveraging the strengths of the Symfony framework and adhering to RESTful principles, it enhances efficiency and accessibility.",
+            "imgs": [
+                "assets/images/unitech_web/web1.png",
+                "assets/images/unitech_web/web2.png",
+                "assets/images/unitech_web/web3.png",
+                "assets/images/unitech_web/web4.png",
+                "assets/images/unitech_web/web5.png"
+            ],
+            "ghLink": "https://gitlab.com/mohamedkhammeri/unitech",
+            "Technologies": ["Symfony 3.4", "REST", "MySQL", "GitLab"]
+        },
+        {
+            "Title": "Obladi, RESTO-CAFÉ",
+            "Description": "Collaborated within a team to design the user interface, layout, and front-end features of a web application tailored for Obladi Café-Resto. Employed <span class='underline'>HTML</span> , <span class='underline'>CSS</span> , <span class='underline'>jQuery</span> , and <span class='underline'>JavaScript</span> to meet the client's <span class='underline'>requirements</span>, resulting in an intuitive and visually appealing online platform for Obladi",
+            "imgs": [
+                "assets/images/obladi/obladi1.png",
+                "assets/images/obladi/obladi2.png",
+                "assets/images/obladi/obladi3.png"
+            ],
+            "ghLink": "https://gitlab.com/mohamedkhammeri/Obladi",
+            "Technologies": ["HTML", "CSS", "JQuery", "JavaScript","MySQL"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "More projects",
+    "OtherProjects.Projects": [
+        {
+            "Title": "DARI, Loan Simulator",
+            "Description": "Dari is a web application intended for all residents, visitors who want to buy/rent property in a city. The credit simulation module I've worked on is used to determine if the user meets the financial requirements for a real estate purchase.",
+            "ghLink": "https://gitlab.com/mohamedkhammeri/PIDEV-FRONT",
+            "Technologies": ["Spring MVC", "Spring Security", "NET", "MySQL","Git"]
+        },
+        {
+            "Title": "Unitech Mobile ",
+            "Description": "Matching its desktop and web counterparts, the application extends to a mobile app built with Codename One. The app syncs with the platform through a RESTful API, guaranteeing smooth usability and efficient data flow, further enhancing accessibility and user experience.",
+            "ghLink": "https://gitlab.com/mohamedkhammeri/unitech/-/tree/master/Mobile/UnitechOne",
+            "Technologies": ["Codename One", "REST", "CSS"]
+        },
+        {
+            "Title": "Smart Supermarket desktop application",
+            "Description": "Contributed to a team effort in developing a desktop application for a smart supermarket with a focus on Inventory Management using C++ in QT Creator. Integrated Oracle db to ensure efficient data management. Employed TortoiseSVN for version control and code management processes.",
+            "Technologies": ["C++", "Qt Creator", "Oracle", "Arduino"]
+        },
+        {
+            "Title": "FPS Desktop Game",
+            "Description": "Led the development of a 2D FPS desktop game using C and SDL library. Designed game assets like maps and models using Adobe products. Operated in a Linux environment via a VMware virtual machine, successfully running the game on CentOS.",
+            "Technologies": ["C", "SDL", "Linux", "SourceForge"]
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "Feel free to reach out and connect! Whether you have a project in mind, a collaboration proposal, or simply want to say hello, I'd love to hear from you. You can reach me via email or connect with me on LinkedIn for professional networking",
+    "Contact.Btn": "Say Hello"
+
+
+}

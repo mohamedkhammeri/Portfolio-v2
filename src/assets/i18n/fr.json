@@ -1,0 +1,203 @@
+{
+
+  "Header.Item1": "À propos de moi",
+  "Header.Item2": "Expérience",
+  "Header.Item3": "Projets",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "CV",
+  "Header.cvName": "Mohamed_Khammeri_CV.pdf",
+
+  "Banner.Pretitle": "Bonjour ! Je m'appelle",
+  "Banner.Description": "En quelques mots, je suis un ingénieur logiciel spécialisé dans le développement <span class='underline'>backend</span>, principalement en utilisant <span class='underline'>Java</span>, Python et Scala. Je possède une solide expérience dans les <span class='underline'>marchés financiers</span> et la banque d'investissement, ce qui renforce mes compétences polyvalentes. Mes capacités de <span class='underline'>communication</span> complètent mes compétences techniques, ce qui fait de moi un atout précieux dans les secteurs du développement logiciel et de la finance.",
+  "Banner.ActionBtn": "Me contacter",
+
+  "AboutMe.Title": "À propos de moi",
+  "AboutMe.Paragraphs": [
+    "Tout au long de mon humble expérience, j'ai développé d'exceptionnelles capacités interpersonnelles et une expertise technique compétente qui me permettent de m'engager efficacement avec une clientèle diversifiée. Je suis enthousiaste à l'idée de relever les défis car ils offrent des opportunités de croissance et d'amélioration pour fournir des résultats exceptionnels.",
+    "De plus, j'ai la capacité d'améliorer les systèmes, d'optimiser les sites web, d'établir des modèles normalisés et de proposer et mettre en œuvre des idées précieuses pour améliorer le projet auquel je participe.",
+    "Certaines des technologies sur lesquelles j'ai été formé et avec lesquelles j'ai travaillé incluent (mais sans s'y limiter) :"
+  ],
+
+
+  "Experience.Title": "Expérience",
+  "Experience.Jobs": [{
+    "Tab": "Wimbee & Santander Bank",
+    "Company": "Wimbee Santander Bank",
+    "Title": "Développeur Backend",
+    "Date": "Avril 2023 - Aout 2023",
+    "Description": [
+      "Intégration des API fournies par une bourse qui offre des données de marché en temps réel telles que les cours des actions, les volumes d’échanges, les ordres d’achat et de vente.",
+      "Développement d’interfaces utilisateur conviviales avec JavaFX pour permettre aux traders d’interagir avec les systèmes et les données financières.",
+      "Mise en place de la logique métier et des règles de gestion pour assurer des opérations de paiement précises et conformes aux réglementations.",
+      "Conception et développement d’un service de confirmation de transactions asynchrone utilisant Java et Spring. Ce service a permis de traiter en temps réel un volume élevé de transactions sans impacter les performances du système global, offrant ainsi une expérience utilisateur améliorée.",
+      "Collaborer avec les équipes DevOps pour déployer, gérer et surveiller les services backend dans les environnements de production, en utilisant Docker et les pipelines CI/CD.",
+      "Capacité à comprendre les besoins des clients, à identifier les problèmes et à proposer des solutions adaptées pour améliorer les processus et les systèmes."
+    ]
+  },
+    {
+      "Tab": "Ikigai Company",
+      "Company": "ikigai",
+      "Title": "Stage de fin d'études",
+      "Date": "Janvier 2022 - Décembre 2022",
+      "Description": [
+        "Conception et développement d’un site web immobilier interactif et dynamique, garantissant un trafic élevé, des services exclusifs et une expérience utilisateur maximale.",
+        "Création de services RESTful pour alimenter l’interface utilisateur en données en temps réel, en fonction de la saisie dynamique de l’utilisateur, et tests exhaustifs de ces API avec POSTMAN.",
+        "Optimisation des requêtes SQL et des accès à la base de données pour garantir des performances élevées du site web.",
+        "Collaboration étroite avec une équipe pour suivre la méthodologie Agile Scrum, en assurant la livraison ponctuelle des fonctionnalités et en réagissant efficacement aux changements requis.",
+        "Rédaction de la documentation pour expliquer et détailler les différentes parties du code, favorisant une meilleure compréhension et un développement futur fluide."
+      ]
+    },
+    {
+      "Tab": "TRENDS",
+      "Company": "Trends-Company",
+      "Title": "Stage de Technicien",
+      "Date": "Mai 2021 - Août 2021",
+      "Description": [
+        "Conception et développement d’applications web.",
+        "Fournir support technique et maintenance.",
+        "Participer à la conception de l’architecture logicielle des applications en cours de développement."
+      ]
+    },
+    {
+      "Tab": "Ooredoo Group",
+      "Company": "ooredoo",
+      "Title": "Stage de Technicien",
+      "Date": "Juillet 2020 - Septembre 2020",
+      "Description": [
+        "Participation au nouveau projet FWBA (Fixed Wireless Broadband Access).",
+        "Collaboration avec le support informatique de niveau 2."
+      ]
+    }
+
+  ],
+
+
+  "FeatureProjects.Title": "Mes projets",
+  "FeatureProjects.Label": "Projet vedette",
+  "FeatureProjects.Projects": [{
+    "Title": "Projets de formation Wimbee & Santander",
+    "Description": "J'ai suivi divers cours à Banco Santander pour enrichir mes compétences. J'ai appris à automatiser des tâches avec le script Bash, à gérer les versions avec Git CLI, et à travailler sur l'organisation des données et les requêtes dans la base de données Oracle pour le développement backend. Les formations en Python, JavaFX, Spring, Flask et Scala m'ont permis d'acquérir des compétences variées en programmation et en création d'applications robustes. Enfin, le projet Spark en Scala a renforcé ma capacité à analyser des données financières à grande échelle, offrant ainsi des perspectives précieuses sur les marchés financiers.",
+    "imgs": [
+      "assets/images/training/training1.png",
+      "assets/images/training/training2.png",
+      "assets/images/training/training3.png"
+    ],
+    "Technologies": ["Linux", "Git CLI", "Base de données Oracle", "Python", "Java", "Flask", "Scala", "Docker","Spring Framework","Jetbrains", "VScode"]
+  },
+    {
+      "Title": "Portfolio v2.0",
+      "Description": "Une version améliorée 2.0 de mon portfolio. Un site web statique méticuleusement conçu développé avec Angular. Cette itération était axée sur le raffinement de l'expérience utilisateur et l'ajout de nouvelles fonctionnalités pour offrir un voyage plus immersif et informatif aux visiteurs.",
+      "imgs": [
+        "assets/images/portfolio-v2.0/portfolio-1.png",
+        "assets/images/portfolio-v2.0/portfolio-2.png",
+        "assets/images/portfolio-v2.0/portfolio-3.png",
+        "assets/images/portfolio-v2.0/portfolio-4.png",
+        "assets/images/portfolio-v2.0/portfolio-5.png",
+        "assets/images/portfolio-v2.0/portfolio-6.png"
+      ],
+      "Technologies": ["Angular", "SASS", "Firebase", "JQuery","DNS","Hosting"],
+      "ghLink": "https://github.com/mohamedkhammeri/portfolio-v2.0",
+      "demoLink": "https://www.moekhammeri.com"
+    },
+    {
+      "Title": "Portfolio v1.0",
+      "Description": "Ce portfolio est une création passionnée, née de mon désir de présenter mon travail de manière visuellement attrayante et fonctionnelle. Il présente <span class='underline'>divers composants</span> mettant en avant mon expérience, mes projets et mes domaines d'expertise.",
+      "imgs": [
+        "assets/images/portfolio/portfolio1.png",
+        "assets/images/portfolio/portfolio2.png",
+        "assets/images/portfolio/portfolio3.png",
+        "assets/images/portfolio/portfolio4.png",
+        "assets/images/portfolio/portfolio5.png"
+      ],
+      "Technologies": ["Angular", "SASS", "Firebase", "JQuery"],
+      "ghLink": "https://gitlab.com/mohamedkhammeri/portfolio",
+      "demoLink": "https://old.moekhammeri.com"
+    },
+    {
+      "Title": "My New Place",
+      "Description": "Une plateforme immobilière complète qui a <span class='underline'>révolutionné</span> la façon dont les gens trouvent, louent ou achètent des maisons. Cette plateforme mettait l'accent sur la fourniture aux utilisateurs d'une <span class='underline'>disponibilité</span> immobilière précise et d'informations détaillées sur les biens, tout en intégrant des avantages modernes tels que la <span class='underline'>signature de contrat numérique</span> et les <span class='underline'>paiements en ligne sécurisés</span>.",
+      "imgs": [
+        "assets/images/mnp/mnp1.png",
+        "assets/images/mnp/mnp4.png",
+        "assets/images/mnp/mnp8.png",
+        "assets/images/mnp/mnp7.png",
+        "assets/images/mnp/mnp3.png",
+        "assets/images/mnp/mnp2.png",
+        "assets/images/mnp/mnp5.png",
+        "assets/images/mnp/mnp6.png"
+      ],
+      "Technologies": ["Laravel", "Angular", "Postgres", "Stripe", "SSL/TLS", "Tokenization"],
+      "ghLink": "https://gitlab.com/mohamedkhammeri/mnp"
+    },
+    {
+      "Title": "Unitech Desktop",
+      "Description": "Présentation de la version desktop d'une plateforme universitaire virtuelle, une application Java à <span class='underline'>plusieurs niveaux</span> réfléchie. L'interface de bureau se connecte harmonieusement à une application <span class='underline'>web</span> construite sur le framework <span class='underline'>Symfony</span> et à une application <span class='underline'>mobile</span> développée avec <span class='underline'>Codename One</span>. Ces composants travaillent de concert avec une <span class='underline'>base de données distante centralisée</span>, cherchant à améliorer l'expérience éducative pour les étudiants et à faciliter l'efficacité opérationnelle pour le personnel de l'université, tout en adoptant une approche humble de ses capacités et offres.",
+      "imgs": [
+        "assets/images/unitech_desk/unitech1.png",
+        "assets/images/unitech_desk/unitech2.png",
+        "assets/images/unitech_desk/unitech3.png",
+        "assets/images/unitech_desk/unitech4.png",
+        "assets/images/unitech_desk/unitech5.png"
+      ],
+      "ghLink": "https://gitlab.com/mohamedkhammeri/gestionecole",
+      "Technologies": ["Java FX, Codename ONE, MySQL, GitLab"]
+    },
+    {
+      "Title": "Unitech Web",
+      "Description": "Connecté à l'app desktop, la plateforme universitaire virtuelle basée sur Java s'étend au web via un <span class='underline'>Framework Symfony 3.4</span> en PHP. Cette version web utilise des API <span class='underline'>RESTful</span>, garantissant une interaction optimale avec une <span class='underline'>base de données distante</span>. Cette intégration rationalise le <span class='underline'>flux de données</span> et les actions, garantissant une expérience fluide pour les utilisateurs. En tirant parti des forces du framework Symfony et en respectant les principes RESTful, elle améliore l'efficacité et l'accessibilité.",
+      "imgs": [
+        "assets/images/unitech_web/web1.png",
+        "assets/images/unitech_web/web2.png",
+        "assets/images/unitech_web/web3.png",
+        "assets/images/unitech_web/web4.png",
+        "assets/images/unitech_web/web5.png"
+      ],
+      "ghLink": "https://gitlab.com/mohamedkhammeri/unitech",
+      "Technologies": ["Symfony 3.4", "REST", "MySQL", "GitLab"]
+    },
+    {
+      "Title": "Obladi, RESTO-CAFÉ",
+      "Description": "Collaboration au sein d'une équipe pour concevoir l'interface utilisateur, la mise en page et les fonctionnalités front-end d'une application web adaptée à Obladi Café-Resto. Utilisation de <span class='underline'>HTML</span>, <span class='underline'>CSS</span>, <span class='underline'>jQuery</span> et <span class='underline'>JavaScript</span> pour répondre aux <span class='underline'>exigences</span> du client, résultant en une plateforme en ligne intuitive et visuellement attrayante pour Obladi.",
+      "imgs": [
+        "assets/images/obladi/obladi1.png",
+        "assets/images/obladi/obladi2.png",
+        "assets/images/obladi/obladi3.png"
+      ],
+      "ghLink": "https://gitlab.com/mohamedkhammeri/Obladi",
+      "Technologies": ["HTML", "CSS", "JQuery", "JavaScript", "MySQL"]
+    }
+  ],
+
+  "OtherProjects.Title": "Plus de projets",
+  "OtherProjects.Projects": [{
+    "Title": "DARI, Simulateur de prêt",
+    "Description": "Dari est une application web destinée à tous les résidents et visiteurs qui souhaitent acheter/louer un bien immobilier dans une ville. Le module de simulation de crédit sur lequel j'ai travaillé est utilisé pour déterminer si l'utilisateur répond aux exigences financières pour un achat immobilier.",
+    "ghLink": "https://gitlab.com/mohamedkhammeri/PIDEV-FRONT",
+    "Technologies": ["Spring MVC", "Spring Security", "NET", "MySQL", "Git"]
+  },
+    {
+      "Title": "Unitech Mobile",
+      "Description": "En harmonie avec l'app desktop  et web, l'application s'étend à une application mobile construite avec Codename One. L'application se synchronise avec la plateforme via une API RESTful, garantissant une utilisation fluide et un flux de données efficace, améliorant ainsi l'accessibilité et l'expérience utilisateur.",
+      "ghLink": "https://gitlab.com/mohamedkhammeri/unitech/-/tree/master/Mobile/UnitechOne",
+      "Technologies": ["Codename One", "REST", "CSS"]
+    },
+    {
+      "Title": "Application desktop Smart Supermarket",
+      "Description": "Contribution à un effort d'équipe pour développer une application desktop pour un supermarché intelligent axée sur la gestion des stocks en utilisant C++ dans QT Creator. Intégration d'une base de données Oracle pour assurer une gestion efficace des données. Utilisation de TortoiseSVN pour le contrôle de version et les processus de gestion du code.",
+      "Technologies": ["C++", "Qt Creator", "Oracle", "Arduino"]
+    },
+    {
+      "Title": "Jeu FPS",
+      "Description": "Conception d'un jeu desktop FPS 2D en utilisant C et la bibliothèque SDL. Conception d'actifs de jeu tels que des cartes et des modèles en utilisant des produits Adobe. Fonctionnement dans un environnement Linux via une machine virtuelle VMware, exécutant avec succès le jeu sur CentOS.",
+      "Technologies": ["C", "SDL", "Linux", "SourceForge"]
+    }
+  ],
+
+  "Contact.Pretitle": "Qu'est-ce qui vient ensuite",
+  "Contact.Title": "Mettez-vous en contact !",
+  "Contact.Content": "N'hésitez pas à me contacter ! Que vous ayez un projet en tête, une proposition de collaboration ou simplement envie de dire bonjour, je serais ravi de vous entendre. Vous pouvez me joindre par e-mail ou me contacter sur LinkedIn pour établir des contacts professionnels.",
+  "Contact.Btn": "Dire bonjour"
+}
+
+
+

@@ -1,0 +1,295 @@
+@import "./../../../../variables.scss";
+
+.about {
+
+  .about-description {
+    margin-top: 30px;
+    max-width: 480px;
+    text-align: justify;
+  }
+
+  .about-img-container {
+    width: 240px;
+    margin: auto;
+
+    &:after {
+      content: '';
+      border: 2px solid $Green;
+      z-index: 0;
+      display: block;
+      position: relative;
+      width: 241px;
+      height: 429px;
+      border-radius: 3px;
+      bottom: 419px;
+      left: 9px;
+
+    }
+
+    img {
+      z-index: 2;
+      position: relative;
+    }
+  }
+
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    overflow: hidden;
+    padding: 0;
+    margin: 20px 0 0 0;
+    list-style: none;
+  }
+
+  .skill-element {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 13px;
+    font-family: $CodeFont;
+    color: $Slate;
+
+    span {
+      padding-bottom: 5px;
+    }
+
+    &:before {
+      content: '▹';
+      position: absolute;
+      left: 0;
+      color: $Green;
+      font-size: 14px;
+      line-height: 12px;
+    }
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+  .about-img-container {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .about {
+    .about-img-container img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .about-img-container:after {
+      width: 100%;
+      height: 100%;
+      bottom: 0px;
+      left: 0px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .about {
+
+    .about-img-container {
+      width: 100%;
+
+      img {
+        width: 80%;
+        height: 80%;
+      }
+
+      &:after {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (pointer: fine) {
+  .rightside {
+    width: 502px;
+    height: 401px;
+
+    overflow: hidden;
+
+    margin: 20px 0 0 0;
+
+    position: relative;
+    float: right;
+
+    background: url('/assets/images/layout/gehirn_sprite.png') no-repeat;
+  }
+
+  .rightside.desi, .rightside.ps, .rightside.ai, .rightside.ind, .rightside.fla, .rightside.fw, .rightside.pp, .rightside.ae {
+    background-position: 0 -802px;
+  }
+
+  /* Coding */
+  .rightside.cod, .rightside.ht, .rightside.cs, .rightside.jas, .rightside.php, .rightside.actsc {
+    background-position: 0 -401px;
+  }
+
+  /* Spiele */
+  .rightside.spi, .rightside.snes, .rightside.wii, .rightside.nds, .rightside.playst, .rightside.sonst {
+    background-position: 0 -1203px;
+  }
+
+
+  #maphover {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: url('/assets/images/layout/gehirn_hover.png') no-repeat;
+  }
+
+  /* Design */
+  #maphover.ps {
+    left: 86px;
+    top: 0;
+    width: 329px;
+    height: 210px;
+    background-position: 0 0;
+  }
+
+  #maphover.ai {
+    left: 111px;
+    top: 142px;
+    width: 243px;
+    height: 178px;
+    background-position: 0 -210px;
+  }
+
+  #maphover.ind {
+    left: 243px;
+    top: 45px;
+    width: 260px;
+    height: 183px;
+    background-position: 0 -388px;
+  }
+
+  #maphover.fla {
+    left: 396px;
+    top: 141px;
+    width: 101px;
+    height: 119px;
+    background-position: 0 -571px;
+  }
+
+  #maphover.fw {
+    left: 275px;
+    top: 199px;
+    width: 138px;
+    height: 72px;
+    background-position: -191px -571px;
+  }
+
+  #maphover.pp {
+    left: 280px;
+    top: 161px;
+    width: 126px;
+    height: 70px;
+    background-position: 0 -690px;
+  }
+
+  #maphover.ae {
+    left: 349px;
+    top: 104px;
+    width: 115px;
+    height: 80px;
+    background-position: -214px -690px;
+  }
+
+  /* Coding */
+  #maphover.ht {
+    left: 44px;
+    top: 55px;
+    width: 124px;
+    height: 182px;
+    background-position: 0 -906px;
+  }
+
+  #maphover.cs {
+    left: 28px;
+    top: 130px;
+    width: 103px;
+    height: 120px;
+    background-position: -226px -906px;
+  }
+
+  #maphover.jas {
+    left: 1px;
+    top: 123px;
+    width: 119px;
+    height: 140px;
+    background-position: 0 -1088px;
+  }
+
+  #maphover.php {
+    left: 11px;
+    top: 45px;
+    width: 114px;
+    height: 125px;
+    background-position: -214px -1088px;
+  }
+
+  #maphover.actsc {
+    left: 8px;
+    top: 45px;
+    width: 85px;
+    height: 86px;
+    background-position: -131px -906px;
+  }
+
+  /* Spiele */
+  #maphover.snes {
+    left: 271px;
+    top: 245px;
+    width: 182px;
+    height: 70px;
+    background-position: 0 -770px;
+  }
+
+  #maphover.wii {
+    left: 324px;
+    top: 256px;
+    width: 132px;
+    height: 77px;
+    background-position: -197px -770px;
+  }
+
+  #maphover.nds {
+    left: 317px;
+    top: 311px;
+    width: 122px;
+    height: 45px;
+    background-position: 0 -847px;
+  }
+
+  #maphover.playst {
+    left: 301px;
+    top: 311px;
+    width: 115px;
+    height: 53px;
+    background-position: -214px -847px;
+  }
+
+  #maphover.sonst {
+    left: 276px;
+    top: 303px;
+    width: 69px;
+    height: 59px;
+    background-position: -133px -847px;
+  }
+
+  .brain-map {
+    display: flex;
+  }
+}
+
+@media screen and (pointer: coarse) {
+  .brain-map {
+    display: none;
+  }
+}
