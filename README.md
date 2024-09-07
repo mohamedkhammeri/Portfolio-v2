@@ -1,46 +1,70 @@
-# Personal website for introduce yourself
 
-## Getting Started
+# 🌐 Personal Website to Introduce Yourself
 
-I have developed this theme as a personal proyect. I have taked the inspiration (and basically all the design) from the wonderful work of Britanny Chiang. You can visit her repo [here](https://github.com/bchiang7/v4)
+Welcome to my personal website project! This is a simple and elegant theme to help you introduce yourself online.
 
-Because I'm not a ReactJS expert (language of the Britanny's proyect), and I liked so much the design, I decided to develop this proyect with Angular's architecture. The website is not connected to any api yet, nither it has dinamic content so that all the content is static inside the HTML files in Angular. I want to connect it to an API in the future, from where i can manage in an easy way without having touch the HTML files in angular.
+## 🚀 Getting Started
 
-If you have any idea or you just want to contribute in this repo in order to improve the development architecture, I invite you to do it! If you have some suggestion to me, i will be glade to recibe it
+I developed this project as a personal venture, inspired by the amazing work of [Brittany Chiang](https://github.com/bchiang7). You can check out her repo [here](https://github.com/bchiang7/v4).
 
-### Prerequisites
+Since I'm not an expert in ReactJS (which Brittany's project uses), but I loved her design, I decided to recreate it using Angular's architecture.
 
-You need to have npm and Angular CLI installed in your pc. Npm is aviable with NodeJS in [here](https://nodejs.org/es/). After you install npm, install Angular CLI by typping the following command in your terminal
+### Key Points:
+- 🔗 The website isn't connected to any API yet.
+- 📝 All content is static within Angular's HTML files.
+- 🔧 In the future, I plan to connect it to an API, allowing easier content management without touching the HTML files.
 
-``` bash
+Feel free to contribute, suggest ideas, or improve the architecture! I'd love to hear your thoughts or suggestions. 😊
+
+## 📋 Prerequisites
+
+To run this project, you'll need to have:
+
+1. **Node.js** and **npm** (Node Package Manager) installed. You can download Node.js [here](https://nodejs.org/).
+2. **Angular CLI** installed globally on your machine.
+
+### To install Angular CLI, run the following command in your terminal:
+
+```bash
 npm install -g @angular/cli
 ```
 
-### Installing
+## 🛠 Installing
 
-Just clone  the repo and excecute the following command inside the folder proyect
+1. Clone the repo:
+   ```bash
+   git clone <repo-url>
+   ```
+2. Navigate to the project folder and run:
+   ```bash
+   npm install
+   ```
 
-``` bash
-npm install
-```
+## 💻 Running the Project
 
-### All done!!
+Once everything is set up, start the project by running:
 
-Now just run
-```
+```bash
 npm start
 ```
-Wait to compile and go to [http://localhost:4200](http://localhost:4200) after compile finish
 
-### Wait! I does not have finished yet!
+Wait for the project to compile, and then open [http://localhost:4200](http://localhost:4200) in your browser.
 
-I want to quote what Brittanty has added in her proyect:
+## 🚨 Important!
 
->## 🚨 Forking this repo (please read!)
+I want to quote what Brittany mentioned in her project regarding forking and attribution:
 
->Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+### Forking this repo (please read!)
+> Many people have contacted me asking if they can use this code for their own website, and the answer is usually yes, with attribution. I value keeping my site open source, but plagiarism is bad. It’s always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask is for you to not claim this effort as your own.
 
-As I have made an attribution to Brittany, i wait you do the same with both in this proyect. Thank you :)
+Since I have attributed Brittany's work, I kindly ask that you do the same for both of us if you use this project. Thank you! 🙌
 
-Sorry my bad English
+---
+
+### 📣 Contributing
+
+If you have any ideas or suggestions, feel free to contribute by submitting a pull request or opening an issue. I appreciate any contributions that help improve the code, structure, or design.
+
+## ✨ Thanks for Visiting!
+
+Enjoy building your own personal website with this theme! 😄
