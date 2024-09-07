@@ -8,12 +8,6 @@ Welcome to my personal website project! This is a simple and elegant theme to he
 I developed this project as a personal venture, inspired by the amazing work of [Brittany Chiang](https://github.com/bchiang7). You can check out her repo [here](https://github.com/bchiang7/v4).
 
 Since I'm not an expert in ReactJS (which Brittany's project uses), but I loved her design, I decided to recreate it using Angular's architecture.
-
-### Key Points:
-- 🔗 The website isn't connected to any API yet.
-- 📝 All content is static within Angular's HTML files.
-- 🔧 In the future, I plan to connect it to an API, allowing easier content management without touching the HTML files.
-
 Feel free to contribute, suggest ideas, or improve the architecture! I'd love to hear your thoughts or suggestions. 😊
 
 ## 📋 Prerequisites
