@@ -1,7 +1,7 @@
 
 # 🌐 Personal Website
 
-Welcome to my personal website project! This is a simple and elegant theme to help you introduce yourself online.
+Welcome to my personal website project! This is a simple and elegant theme to help you introduce myself online.
 
 ## 🚀 Getting Started
 
